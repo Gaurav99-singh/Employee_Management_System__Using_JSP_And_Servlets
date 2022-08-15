@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
+<title>ADD EMPLOYEE DETAILS</title>
+</head>
+<body>
+	<div class="bg"></div>
+
+	<p class="py-5 text-center">This example creates a full page
+		background image. Try to resize the browser window to see how it
+		always will cover the full screen (when scrolled to top), and that it
+		scales nicely on all screen sizes.</p>
+	<!-- EmployeeId, Password, EmployeeType, FirstName, LastName, Address, PhoneNo, Email, Gender, HireDate, Salary -->
+	<h1>
+		<center>ADD EMPLOYEE DETAILS PAGE</center>
+	</h1>
+	<h2>
+
+		<form method="GET" action="AddEmployeeDetailsController">
+
+			<label>Employee Id : </label><input type="text" name="id"> <br>
+			<br> <label>Password : </label><input type="password"
+				name="password"> <br>
+			<br> <label>Employee Type : </label><input type="text"
+				name="type"> <br>
+			<br> <label>First Name : </label><input type="text" name="first">
+			<br>
+			<br> <label>Last Name : </label><input type="text" name="last">
+			<br>
+			<br> <label>Address : </label><input type="text" name="address">
+			<br>
+			<br> <label>Phone No : </label><input type="text" name="phone">
+			<br>
+			<br> <label>Email : </label><input type="text" name="email">
+			<br>
+			<br> <label>Gender : </label><input type="text" name="gender">
+			<br>
+			<br> <label>Hire Date : </label><input type="date"
+				name="hireDate"> <br>
+			<br> <label>Salary : </label><input type="number" name="salary">
+			<br>
+			<br> <input type="submit" value="submit">
+		</form>
+	</h2>
+</body>
+</html>
+
